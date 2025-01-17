@@ -108,6 +108,10 @@ main h1{
     padding: 20px;
     font-size: 25px;
   }
+
+  main{
+    border-radius: 8px;
+  }
 }
 
 @media screen and (max-width: 400px) {
@@ -122,10 +126,6 @@ main h1{
 
   .email {
     padding: 16px;
-    border-radius: 8px;
-  }
-
-  main{
     border-radius: 8px;
   }
 }
