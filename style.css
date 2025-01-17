@@ -120,8 +120,12 @@ main h1{
   }
 
   main p,
-  main h2, main a {
+  main h2{
     font-size: 23px;
+  }
+
+  main a {
+    font-size: 17px;
   }
 
   .email {
@@ -141,8 +145,12 @@ main h1{
     }
   
     main p,
-    main h2, main a {
+    main h2 {
       font-size: 17px;
+    }
+
+    main a {
+        font-size: 14px;
     }
   
     .email {
