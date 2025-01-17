@@ -1,0 +1,141 @@
+* {
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #e7d3ff;
+  text-decoration: none;
+}
+
+body {
+  background-color: #2e2e2e;
+}
+
+h1 {
+  font-weight: 400;
+}
+
+p {
+  font-weight: 350;
+}
+
+nav {
+  padding: 20px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+main {
+  padding: 100px;
+  border-radius: 32px;
+  background-color: #3a3a3a;
+  min-height: 100vh;
+  margin: 10px;
+}
+
+main * {
+  max-width: 80%;
+}
+
+main p,
+main h2 {
+  font-size: 40px;
+}
+
+main a {
+  font-size: 30px;
+  color: #b374ff;
+}
+
+.email {
+  background-color: #b374ff;
+  color: #3a3a3a;
+  padding: 20px;
+  max-width: 400px;
+  text-align: center;
+  border-radius: 50px;
+  margin-top: 50px;
+}
+
+main h2 {
+  margin-top: 40px;
+}
+
+main a {
+  display: block;
+}
+
+main h1 {
+  font-weight: 600;
+  font-size: 100px;
+}
+
+@media screen and (max-width: 950px) {
+  main h1 {
+    font-size: 80px;
+  }
+
+  main p,
+  main h2 {
+    font-size: 30px;
+  }
+
+  main {
+    padding: 60px;
+  }
+}
+
+@media screen and (max-width: 630px) {
+  main h1 {
+    font-size: 60px;
+  }
+
+  main p,
+  main h2 {
+    font-size: 27px;
+  }
+
+  main {
+    padding: 40px;
+  }
+
+  .email {
+    padding: 20px;
+    font-size: 25px;
+  }
+}
+
+@media screen and (max-width: 630px) {
+  main h1 {
+    font-size: 40px;
+  }
+
+  main p,
+  main h2, main a {
+    font-size: 23px;
+  }
+
+  .email {
+    padding: 16px;
+  }
+}
+
+
+@media screen and (max-width: 360px) {
+    main h1 {
+      font-size: 30px;
+    }
+
+    main {
+        padding: 30px;
+    }
+  
+    main p,
+    main h2, main a {
+      font-size: 19px;
+    }
+  
+    .email {
+      padding: 13px;
+      font-size: 15px;
+    }
+  }
