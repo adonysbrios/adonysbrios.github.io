@@ -11,6 +11,11 @@ body {
   background-color: #2e2e2e;
 }
 
+footer{
+  padding: 20px;
+  text-align: center;
+}
+
 h1 {
   font-weight: 400;
 }
@@ -94,6 +99,11 @@ main h1{
 @media screen and (max-width: 630px) {
   main h1 {
     font-size: 60px;
+  }
+
+
+  main * {
+    max-width: 100%;
   }
 
   main p,
