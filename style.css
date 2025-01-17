@@ -124,6 +124,10 @@ main h1{
     padding: 16px;
     border-radius: 8px;
   }
+
+  main{
+    border-radius: 8px;
+  }
 }
 
 
