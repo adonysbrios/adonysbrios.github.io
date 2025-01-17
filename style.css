@@ -1,6 +1,7 @@
 * {
   margin: 0;
   font-family: "Segoe UI";
+  src: URL('segoeui.ttf') format('truetype');
   color: #e7d3ff;
   text-decoration: none;
 }
